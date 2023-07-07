@@ -1,6 +1,6 @@
 body{
     font: normal 15pt Arial;
-    background-color: rgb(71, 42, 92);
+    background-color: rgb(45, 22, 61);
 }
 
 header{
@@ -8,18 +8,18 @@ header{
     text-align: center;
 }
 select#flista{
-    width: 150px;
+    width: 250px;
 }
 section{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px;
     width: 500px;
     margin:auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.475);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.574);
 }
 div{
-    padding: 8px;
+    padding: 10px;
 }
 footer{
     color: white;
