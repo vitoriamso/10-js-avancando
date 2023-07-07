@@ -10,7 +10,7 @@ body{
     margin: auto;
     background-color: white;
 }
-.button{
+button{
     padding: 5px;
     font-size: 18px;
     text-decoration: none;

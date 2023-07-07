@@ -1,13 +1,4 @@
-document.addEventListener( "DOMContentLoaded", function() {
-    var inputElement = document.getElementById('fnum');
-    inputElement.addEventListener('keydown', function(event) {
-      if (event.keyCode === 13) {
-        event.preventDefault();
-        adicionar();
-      }
-    });
-});
-  
+
 let num = document.querySelector('input#fnum')
 let lista = document.querySelector("select#flista")
 let res = document.querySelector("div#res")
@@ -48,7 +39,7 @@ function finalizar(){
         window.alert("Adicione valores antes de finalizar!")
     }
     else{
-        let tot = valores.length
+        let total = valores.length
         let maior = valores[0]
         let menor = valores[0]
         let soma = 0
@@ -62,7 +53,7 @@ function finalizar(){
                 menor = valores[pos]
             }
         }
-        media = soma / tot;
+        media = soma / total;
         res.innerHTML = "";
         res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados</p>`
         res.innerHTML += `<p>O maior valor informado foi ${maior}</p>`
